@@ -1,0 +1,20 @@
+
+.jumbotron {
+    background-image: linear-gradient(cyan,#f7f379);
+}
+
+
+td {
+
+    height : 100px;
+    width: 100px;
+    text-align: center;
+    border: 5px solid black;
+    font-size: 70px;
+
+
+}
+
+body {
+    background-image: linear-gradient(cyan, pink);
+}
