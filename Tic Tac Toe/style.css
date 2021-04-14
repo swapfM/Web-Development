@@ -15,6 +15,7 @@ td {
 
 }
 
-body {
+.wrapper {
+    height: 100vh;
     background-image: linear-gradient(cyan, pink);
 }
