@@ -5,11 +5,14 @@ import bitly_api
 BITLY_ACCESS_TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 
+print("Enter your URL : ", end='')
 
-long = input
+long = input()
 
 b = bitly_api.Connection(access_token=BITLY_ACCESS_TOKEN)
 
 
 response = b.shorten(long)
-return(response['url'])
+
+print("The Generated Short URL is : ", end='')
+print(response['url'])
