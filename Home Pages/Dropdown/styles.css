@@ -1,0 +1,92 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+   
+    background-image: url("back.jpg");
+    background-size: cover;
+   
+    background-position: center;
+    font-family: sans-serif;
+
+    
+}
+
+
+.nav-Bar {
+    background: rgb(110, 49, 250);
+    text-align: center;
+}
+
+.nav-Bar ul {
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.nav-Bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .nav-Bar ul li:hover
+{
+    background: rgb(248, 78, 78);
+    border-radius: 3px;
+}
+
+.nav-Bar .fa {
+    margin-right: 5px;
+}
+
+.nav1 {
+    display: none;
+}
+
+.nav-Bar ul li:hover .nav1{
+    display: block;
+    position: absolute;
+    background: rgb(233, 81, 81);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.nav-Bar ul li:hover .nav1 ul{
+    display: block;
+  
+   border-radius: 5 px;
+   
+}
+
+.nav-Bar ul li:hover .nav1 ul li
+{
+
+    width: 150px;
+    padding: 10px;
+    border-bottom: solid white;
+    background: transparent;
+    text-align: left;
+}
+
+.nav-Bar ul li:hover .nav1 ul li a:hover {
+
+    color: pink;
+}
+
+.fa-angle-right {
+
+    float: right;
+}
